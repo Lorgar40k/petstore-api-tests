@@ -87,6 +87,6 @@ public class PetTests {
                 .when()
                 .get("/pet/" + petId)
                 .then()
-                .statusCode(404); // должен быть 404, если питомец удалён
+                .statusCode(404);
     }
 }
